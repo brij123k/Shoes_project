@@ -1,0 +1,53 @@
+.container_nav {
+  background-image: url('image/Banner_back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Section_nav {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 2fr 1fr;
+  padding: 12px;
+}
+
+.logo_nav {
+  margin-left: 7rem;
+}
+
+.content_nav ul {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.content_nav li {
+  list-style: none;
+}
+
+.Join_button {
+  color: white;
+  border: 1px solid green;
+  width: 150px;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: green;
+  margin-left: 23px;
+}
+
+
+/* _____________________________************_____________________________*/
+
+
+.Section_hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero_Img img {
+  width: 825px;
+  height: 552px;
+  flex-shrink: 0;
+}
